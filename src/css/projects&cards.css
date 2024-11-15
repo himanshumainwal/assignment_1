@@ -1,0 +1,45 @@
+.container {
+  text-align: center;
+  margin: 3.5rem 9rem;
+  /* border: 2px solid red; */
+}
+
+.container p {
+  color: #f15a24;
+  font-size: 1.4rem;
+  margin-bottom: 9px;
+}
+
+.cardss {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.5rem;
+  margin: 3.4rem 0;
+}
+.card {
+  box-shadow: 0 5px 4px #888888;
+  width: 30%;
+  border-radius: 6px;
+  outline: none;
+}
+.card img {
+  width: 100%;
+  border-radius: 7px;
+  height: 68%;
+}
+
+.card .card_title {
+  text-align: left;
+  padding: 1rem 2rem;
+}
+
+.card .card_title h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card .card_title h4 {
+  color: #f15a24;
+  font-weight: 200;
+  cursor: pointer;
+}

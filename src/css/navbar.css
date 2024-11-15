@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 9rem;
+  padding: 1.5rem 0;
+  align-items: center;
+}
+.nav .logo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.list {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.list ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.list ul li:nth-child(4) {
+  color: #f15a24;
+  border-bottom: 4px solid #f15a24;
+}
+.list .btn {
+  border: none;
+  background-color: #f15a24;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.list .btn:hover {
+  background-color: #e0481e;
+}
